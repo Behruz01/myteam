@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="contact">
+      <div class="container">
+        <div class="contact__wrapper">
+          <img
+            src="./image/contact-img.png"
+            alt="photo"
+            class="contact__image"
+          />
+          <div class="contact__left">
+            <h1 class="contact__info">Contact</h1>
+            <h2 class="contact__about">Ask us about</h2>
+            <ul class="contact__item">
+              <li class="contact__list">
+                <img
+                  src="./image/hero_img1.png"
+                  alt="photo"
+                  class="contact__pht"
+                  width="72"
+                  height="72"
+                />
+                <h3 class="contact__text">The quality of our talent network</h3>
+              </li>
+              <li class="contact__list">
+                <img
+                  src="./image/hero_img2.png"
+                  alt="photo"
+                  class="contact__pht"
+                  width="72"
+                  height="72"
+                />
+                <h3 class="contact__text">
+                  Usage & implementation of our software
+                </h3>
+              </li>
+              <li class="contact__list">
+                <img
+                  src="./image/hero_img3.png"
+                  alt="photo"
+                  class="contact__pht"
+                  width="72"
+                  height="72"
+                />
+                <h3 class="contact__text">How we help drive innovation</h3>
+              </li>
+            </ul>
+          </div>
+          <div class="contact__right">
+            <form
+              action="https://echo.htmlacademy.ru/"
+              class="contact__form-inp"
+            >
+              <input
+                name="name"
+                type="text"
+                class="contact__inp"
+                type="text"
+                placeholder="John Appleseed"
+                required
+                minlength="6"
+              />
+              <input
+                name="email"
+                type="email"
+                class="contact__inp"
+                type="email"
+                placeholder="Email Address"
+                required
+                minlength="6"
+              />
+              <input
+                name="company-name"
+                type="text"
+                class="contact__inp"
+                type="text"
+                placeholder="Company Name"
+                required
+                minlength="6"
+              />
+              <input
+                name="title"
+                type="text"
+                class="contact__inp"
+                type="text"
+                placeholder="Title"
+                required
+                minlength="6"
+              />
+              <textarea
+                name="massage"
+                id="sms"
+                class="contact__inp"
+                cols="30"
+                rows="1"
+                placeholder="Message"
+              ></textarea>
+              <button type="submit" class="contact__btn">submit</button>
+            </form>
+          </div>
+          <picture class="contact__picture">
+            <source srcset="./image/change-img.png" media="(max-width:376px)" />
+            <img
+              src="./image/contact-img2.png"
+              alt="photo"
+              class="contact__image2"
+            />
+          </picture>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
